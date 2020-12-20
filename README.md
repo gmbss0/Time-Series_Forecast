@@ -9,4 +9,5 @@ This repository contains various Deep Learning Architectures I implemented from 
 
 
 If the architecture implemented is inspired or follows a paper I tried to at least briefly summarise the paper in the [wiki](https://github.com/gianmarcobesso/Time-Series_Forecast/wiki)
+
 Have fun...
