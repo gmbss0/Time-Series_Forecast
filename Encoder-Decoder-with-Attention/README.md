@@ -1,4 +1,5 @@
-# Time Series Forecast
+# Encoder Decoder with attention
+
 This repository contains various Deep Learning Architectures I implemented from scratch during my master thesis. The original dataset used within my thesis can not be shared publicly and was thus exchanged. The list below shows which architectures I implemented:
 
 1) Encoder-Decoder with Attention (mainly following the architecture of: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025))
