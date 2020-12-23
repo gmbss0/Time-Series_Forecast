@@ -1,6 +1,6 @@
 # Time Series Forecast with Attention
 ### Overview
-This repository contains various Deep Learning Architectures I implemented from scratch during my master thesis. My research work dealed with attentive models applied to time-series forecast, where the goal was ultimately to increase model interpretability and at the same time reach state-of-the-art prediction results. The original dataset used within my thesis can not be shared publicly and was thus exchanged. The list below shows which architectures I implemented:
+This repository contains various Deep Learning Architectures I implemented from scratch during my master thesis. My research work dealed with attentive models applied to time-series forecast, where the goal was ultimately to increase model interpretability and at the same time reach state-of-the-art prediction results. The original dataset used within my thesis unfortunately can not be shared publicly. The list below shows which architectures I implemented:
 
 ### Architectures
 1) Encoder-Decoder with Attention (mainly following the architecture of: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025))
