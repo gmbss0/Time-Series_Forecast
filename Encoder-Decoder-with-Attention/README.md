@@ -1,12 +1,18 @@
-# Time Series Forecast
-This repository contains various Deep Learning Architectures I implemented from scratch during my master thesis. The original dataset used within my thesis can not be shared publicly and was thus exchanged. The list below shows which architectures I implemented:
+# Encoder Decoder with Attention
 
-1) Encoder-Decoder with Attention (mainly following the architecture of: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025))
-    - This architecture can be used to predict one- ore multi-step-ahead and further to analyse to which input time-steps the model attends while predicting
-2) Feature-wise Attention Network (developed myself and inspired by [Causal Discovery with Attention-Based Convolutional Neural Networks](https://mdpi.com/2504-4990/1/1/19 )       and [Attention is all you need](https://arxiv.org/abs/1706.03762))
-    - This model can be used to predict one-step-ahead and further to analyse to which input features the model attends
-3) Temporal-Feature-Wise Attention Network
+## Intro
+The implementation follows the paper [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025) summarised in the [wiki](https://github.com/gianmarcobesso/Time-Series_Forecast/wiki/Effective-Approaches-to-Attention-based-Neural-Machine-Translation). The implementation can be used for multi-variate time-series forecast. The attention weights can be used to analyse to which input time steps the seq2seq model attentds while predicting the output sequence. Based on the needs the attention weights can be analysed both at specific prediction steps or over the entire test set. 
 
+## Requirements
+```
+pip install -r requirements.txt
+```
+## Use 
+Add CSV file in data directory, train, evaluate attention weights on test set...
 
-If the architecture implemented is inspired or follows a paper I tried to at least briefly summarise the paper.
-Have fun...
+## Use-cases of attention weights analysis
+### Is the model attending from different time steps at inference?
+The attention across the input time steps can be analysed at any given time step of the test set. Below, you see two examples of how the attention was behaving at two different time steps (for the data I used during my thesis). 
+
+### Size of input window size?
+The decision of the size of the window used as input to a model is a critical choice for time-series forecast. This model can be used to asses this task by analysing the attention weights across the input time steps. In my case, I trained the model with [20,30,50] time steps as input features and subsequently analysed the [0.1,0.5,0.9] quantiles of the attention weights across the test data. 
