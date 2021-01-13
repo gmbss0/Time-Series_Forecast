@@ -8,7 +8,7 @@ The implementation follows the paper [Effective Approaches to Attention-based Ne
 pip install -r requirements.txt
 ```
 ## Use 
-Add CSV file in data directory, train, evaluate attention weights on test set...
+Add CSV file in data directory -> adjust cfg -> train -> evaluate attention weights on test set...
 
 ## Use-cases of attention weights analysis
 ### Is the model attending from different time steps at inference?
