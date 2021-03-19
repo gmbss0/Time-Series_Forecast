@@ -5,7 +5,7 @@ This repository contains various Deep Learning Architectures I implemented from 
 ### Architectures
 1) Encoder-Decoder with Attention (mainly following the architecture of: [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025))
     - This architecture can be used to predict one- ore multi-step-ahead and further to analyse to which input time-steps the model attends while predicting
-2) Temporal Featurewise Attention Network (TFAN) (developed myself and inspired by [Causal Discovery with Attention-Based Convolutional Neural Networks](https://mdpi.com/2504-4990/1/1/19 ), [Attention is all you need](https://arxiv.org/abs/1706.03762) and [Attention is not only a weight](https://arxiv.org/abs/2004.10102)
+2) Temporal Featurewise Attention Network (TFAN) (developed myself and inspired by [Causal Discovery with Attention-Based Convolutional Neural Networks](https://mdpi.com/2504-4990/1/1/19 ), [Attention is all you need](https://arxiv.org/abs/1706.03762), [TCN](https://arxiv.org/pdf/1803.01271.pdf) and [Attention is not only a weight](https://arxiv.org/abs/2004.10102) and
     - This architecture can be used to predict one- ore multi-step-ahead and further to analyse to which features the model attends while predicting
     - The attention analysis is inspired and mainly follows [Attention is not only a weight](https://arxiv.org/abs/2004.10102)
 
