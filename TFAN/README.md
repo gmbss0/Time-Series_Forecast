@@ -22,5 +22,10 @@ pip install -r requirements.txt
 Add CSV files in data directory -> adjust cfg -> train model in TFAN.py -> evaluate attention on test set...
 
 ## Results
-
+The following images show results of my research work. The actual feature names are anonymised. Both plot types can be generated with the code in TFAN.py.
+### Attention distribution
+The attention distribution shows the attention of the model across features and time.
+![image](https://user-images.githubusercontent.com/62936465/123095042-e7a68980-d42d-11eb-817e-7a70f7183a1e.png)
+### Featurewise attention
+![image](https://user-images.githubusercontent.com/62936465/123094501-3dc6fd00-d42d-11eb-8a7d-cb6d31059755.png)
 
