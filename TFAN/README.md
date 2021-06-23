@@ -11,7 +11,8 @@ TFAN basically applies an individual TCN (see my short summary of the paper [her
 The Multi-Head-Attention implementaion follows the [tensorflow code](https://www.tensorflow.org/api_docs/python/tf/keras/layers/MultiHeadAttention). However, for my attention analysis I require the values (that are not returned by the tf implementation). Additionally, I included the regularization method [dropAttention](https://arxiv.org/abs/1907.11065).
 ### Final 1D Convolutions
 After combining the information of the different features, a series of classic 1D convolutions is performed. This leads to the prediction of the output time series.
-
+### Attention Analysis
+The attention analysis is based on the findings of [this paper](https://arxiv.org/abs/2004.10102), summarised in the [wiki](https://github.com/gmbss0/Time-Series_Forecast/wiki/Attention-is-Not-Only-aWeight:-Analyzing-Transformers-with-Vector-Norms). The attention analysis includes the attention weights, values and trained layer weights to effectively compute a quantitative assessment of the information content of the individual features.
 
 ## Requirements
 ```
