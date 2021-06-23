@@ -1,7 +1,7 @@
 # Temporal Featurewise Attention Network
 
 ## Intro
-
+![image](https://user-images.githubusercontent.com/62936465/123063000-4f001180-d40d-11eb-8764-754821c195d2.png)
 ## Requirements
 ```
 pip install -r requirements.txt
