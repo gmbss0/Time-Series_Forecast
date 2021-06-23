@@ -1,0 +1,9 @@
+batch_size 128
+inference_batch_size 128000
+buffer_size 10000
+epochs 20
+encoder_units 32
+dropout 0.3
+decoder_units 32
+dense_units 16
+input_time_steps 15
