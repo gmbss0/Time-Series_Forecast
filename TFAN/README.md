@@ -19,7 +19,7 @@ The attention analysis is based on the findings of [this paper](https://arxiv.or
 pip install -r requirements.txt
 ```
 ## Use 
-Add CSV file in data directory -> adjust cfg -> train -> evaluate attention on test set...
+Add CSV files in data directory -> adjust cfg -> train model in TFAN.py -> evaluate attention on test set...
 
 ## Results
 
